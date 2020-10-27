@@ -18,7 +18,7 @@ h1 {
 
 h3 {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 
@@ -36,8 +36,8 @@ p {
 }
 footer {
 	margin: auto;
-  background-color: cadetblue;
-  border: 1px solid black;
+  background-color: lightgray;
+  border: 1px dotted black;
   height: 50px;
   width: 940px;
 }
@@ -51,7 +51,7 @@ img {
 /* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
 section {
   text-align: right;
-  background-image: linear-gradient(cadetblue,lightgrey);
+  background-image: linear-gradient(cadetblue,lightgray);
   height: 400px;
   margin-top: -2%;
 }
