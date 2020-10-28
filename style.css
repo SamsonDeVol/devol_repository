@@ -3,11 +3,26 @@ header, footer, section, nav, article {
 }
 
 body {
-	margin: 0 auto;  
-  width: 940px;
   font: 15px Trebuchet MS;
+  padding-top: 3.5rem;
+  background-image: linear-gradient(cadetblue, lightgray)
 }
-
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
 h1 {
   color:cadetblue;
   text-align: center;
@@ -31,22 +46,17 @@ header {
 }
 
 p {
+  display: block;
   text-align: left;
-  width: 400px;
 }
 footer {
-	margin: auto;
   background-color: lightgray;
-  border: 1px dotted black;
-  height: 50px;
-  width: 940px;
 }
 
 img {
-  width: 100;
-  height: 150;
-  margin-right: 15%;
-  margin-top: -10%
+  max-width: 50%;
+  height: auto;
+  width: auto;
 }
 /* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
 section {
@@ -55,12 +65,15 @@ section {
   height: 400px;
   margin-top: -2%;
 }
-
+.jumbotron{
+  background-image: url("sunset.jpg");
+  background-size: cover;
+  background-position: bottom;
+  outline: 2px solid black;
+}
 
 /* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
 nav {
-	width: 450px;
-	height: 50px;
 	float: left;
 	font-family: Geneva,Arial;
 	border: 2px solid #000000;
