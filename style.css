@@ -5,7 +5,7 @@ header, footer, section, nav, article {
 body {
   font: 15px Trebuchet MS;
   padding-top: 3.5rem;
-  background-image: linear-gradient(cadetblue, lightgray)
+  background-image: linear-gradient(cadetblue, lightgrey)
 }
 .fixed-top {
   position: fixed;
@@ -61,7 +61,6 @@ img {
 /* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
 section {
   text-align: right;
-  background-image: linear-gradient(cadetblue,lightgray);
   height: 400px;
   margin-top: -2%;
 }
@@ -74,7 +73,7 @@ section {
 
 /* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
 nav {
-	float: left;
+
 	font-family: Geneva,Arial;
 	border: 2px solid #000000;
 	background-color: #D0DBF0;
@@ -82,7 +81,6 @@ nav {
 
 nav ul {
 	margin: 0px auto;
-	padding: 15px;
 	list-style-type: none;
 }
 nav li {
@@ -90,12 +88,8 @@ nav li {
 }
 
 nav li a {
-	float: left;
-	text-align: center;
-	border-right: 2px solid #00DBF0;
-  width: 100px;  
+
   font-size: 14px; 
-	padding: 0px 10px;
 	color: #0000FF;
 	text-decoration: none;
 }
